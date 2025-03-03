@@ -580,3 +580,6 @@ header{
     display: flex;
     flex-direction: column;
 }
+ul{
+    display: none;
+}
