@@ -1,0 +1,580 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+}
+
+header{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    gap: 550px;
+}
+
+.lines {
+    display: none;
+}
+
+.avatar{
+    height: 34px;
+    width: 34px;
+}
+
+.person{
+    display: flex;
+    gap: 10px ;
+    width: 30%;
+}
+
+.person__name{
+    display: flex;
+    gap: 5px;
+}
+
+.name_of_person{
+    color: black;
+}
+
+.h3{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.group_of_person{
+    color: gray;
+}
+
+.button_of_classes{
+    overflow: hidden;
+    display: inline-block;
+    position: fixed;
+}
+
+.button_of_classes input[type=radio] {
+	display: none;
+}
+
+.button_of_classes label{
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 90px;
+    padding: 5px 20px;
+    color: gray;
+    font-size: 14px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.button_of_classes label:hover{
+    background-color: #3D9AFF;
+    border: 1px solid #3D9AFF;
+    color: white;
+}
+
+.button_of_classes input[type=radio]:checked + label{
+    background-color: #3D9AFF;
+    border: 1px solid #3D9AFF;
+    color: white;
+}
+
+.button_for_leave{
+    background-color: white;
+    padding: 12px 20px;
+    border: 1px solid gray;
+    border-radius: 90px;
+    color: gray;
+    font-size: 14px;
+    cursor: pointer;  
+}
+
+.button_for_leave:hover{
+    transition: all 0.4s ease 0s;
+    transform: scale(1.2);
+    background-color: #3D9AFF;
+    border: 1px solid #3D9AFF;
+    color: white;
+}
+
+.button_for_leave:active{
+    background-color: #4082c9;
+    border: 1px solid #3D9AFF;
+    color: rgb(216, 216, 216);
+}
+
+
+
+
+section{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+
+.balls:hover{
+    background: radial-gradient(circle at 0.3% top, #ffe358, #ffb37d, #ff845f);
+}
+
+.balls:active{
+    background: radial-gradient(circle at 0.3% top, #e7c82c, #ec9251, #e2562b);
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.dostij:hover{
+    background: radial-gradient(circle at 0.3% top, #b390ff, #972eff);
+}
+
+.dostij:active{
+    background: radial-gradient(circle at 0.3% top, #8254e6, #6c00d8);
+    color: rgba(255, 255, 255, 0.74);
+}
+
+
+
+.join{
+    padding: 20px 0 0 0px;
+    background: radial-gradient(circle at 0.5% bottom, #ACD3FF, #1170DC);
+    border-radius: 0px 25px 25px 25px;
+    width: 413px;
+    height: 173px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: left;
+    box-shadow: 0px 38px 33px -30px #ACD3FF;
+
+}
+
+.join:hover{
+    background: radial-gradient(circle at 0.5% bottom, #b1d5ff, #1984ff);
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.join:active{
+    background: radial-gradient(circle at 0.5% bottom, #9abde6, #0e60be);
+    color: white;
+}
+
+
+.join_text{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.balls{
+    background: radial-gradient(circle at 0.3% top, #ffdd33, #FF9E5A, #FF6534);
+    border-radius: 0px 25px 25px 25px;
+    width: 413px;
+    height: 173px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    box-shadow: 0px 38px 33px -37px #FF9E5A;
+
+}
+
+.balls_text{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.balls_text_ickl{
+    color: white;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.mesto_v_gruppe{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+
+.balls_text_ickl-1{
+    border: white 1px solid;
+    border-radius: 90px;
+    padding: 10px 5px 10px 5px;
+}
+
+.balls_text_ickl-2{
+    border: white 1px solid;
+    border-radius: 90px;
+    padding: 10px 5px 10px 5px;
+}
+
+.dostij{
+    background: radial-gradient(circle at 0.3% top, #A57AFF, #8205FF);
+    border-radius: 0px 25px 25px 25px;
+    width: 413px;
+    height: 173px;
+    border: none;
+    text-align: left;
+    margin-bottom: 10px;
+    color: white;
+    box-shadow: 0px 38px 35.2px -37px #AA66FF;
+
+}
+
+.dostij_text{
+    font-size: 24px;
+    line-height: 24px;
+    padding-left: 20px;
+}
+
+.dostij_text_ickl{
+    padding: 10px 20px;
+    color: white;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.dostij_img_ball{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+
+
+.lessons{
+    padding: 20px 0;
+    display: flex;
+    
+}
+
+.lessons_card{
+    border: 1px solid #D3D3D3;
+    border-radius: 0 25px 25px 25px;
+    width: 200px;
+    box-shadow: 0px 24px 52.3px -27px #D3D3D3;
+
+}
+
+.lessons_card_text{
+    font-size: 14px;
+    padding: 10px 0 0 20px;
+}
+
+.lessons_card-two{
+    display: flex;
+    border: 1px solid #D3D3D3;
+    border-radius: 0 25px 25px 25px;
+    width: 212px;
+    box-shadow: 0px 24px 52.3px -27px #D3D3D3;
+
+}
+
+.lessons_card_img{
+    padding: 42px 0 0 115px;
+}
+
+.lessons_card_img-2{
+    padding: 0px 0 0 33px;
+}
+
+.lessons_card_img-3{
+    padding: 0px 0 0 6px;
+}
+
+
+
+.Card_info{
+    padding: 15px 0;
+}
+
+.obraz_reiting{
+    border: 1px solid #DDE2E4;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 5px;
+    box-shadow: 0px 22px 27.7px -27px #EAEAEA;
+}
+
+.obraz_reiting_div{
+    display: flex;
+    padding: 20px 0 0 0;
+    gap: 5px;
+}
+
+.all_reiting{
+    padding: 10px 20px;
+    background: radial-gradient(circle at 0.3% top, #ffdd33, #FF9E5A, #FF6534);
+    border-radius: 20px;
+    box-shadow: 0px 4px 18.1px 0px #FFD0B8;
+
+
+}
+
+.all_reiting_div{
+    display: flex;
+    gap: 7px;
+}
+
+.all_reiting_zag{
+    font-size: 24px;
+    color: white;
+}
+
+.all_reiting_text{
+    color: white;
+    font-size: 12px;
+}
+
+.pro{
+    margin-top: 5px;
+}
+
+.all_reiting_img{
+    margin: 10px;
+}
+
+ .all_reiting__div{
+    display: flex;
+}
+
+
+
+ .mounths_radioButt{
+    position: absolute;
+ }
+
+ .card{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #DDE2E4;
+    border-radius: 20px;
+    padding: 34px 20px;
+    background-color: white;
+ }
+
+ .one{
+    z-index: 1;
+ }
+
+.two{
+    z-index: 2;
+ }
+
+ .three{
+    z-index: 3;
+ }
+
+ .four{
+    z-index: 4;
+ }
+
+ .five{
+    z-index: 6;
+ }
+
+
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: #8B8B8B;
+    margin: 5px;
+}
+.lines div{
+    width: 30px;
+    height: 2px;
+    background-color: #8B8B8B;
+    margin-bottom: 5px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.lines{
+    display: none;
+}
+
+
+
+
+ @media (max-width: 431px) and (orientation: portrait) {
+    .main-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .button_for_leave{
+        display: none;
+    }
+
+    .join_to_lesson{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .join{
+        width: 95vw;
+        height: 100px;
+    }
+
+    .mesto_v_gruppe{
+        align-items: start;
+    }
+
+    .join_text{
+        size: 19;
+        font-weight: 600;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .lessons{
+        display: flex;
+        flex-direction: column;
+        width: 95vw;
+    }
+
+    .lessons_card{
+        width: 95%;
+        height: 75px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        margin-top: 5px;
+    }
+
+    .lessons_card-two{
+        width: 95%;
+        height: 75px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        padding-left: 20px;
+        margin-top: 5px;
+        
+    }
+
+    .lessons_card_img{
+        padding: 0;
+    }
+
+    .lessons_card_img-2{
+        padding: 0;
+    }
+
+    .lessons_card_img-3{
+        padding: 0;
+    }
+
+    .lessons_card_text{
+        padding: 0;
+    }
+    
+    .balls{
+        width: 95vw;
+        height: 153px;
+        padding: 0;
+    }
+
+    .balls_text_ickl{
+        width: 130px;
+    }
+
+    .balls_img{
+        display: none;
+    }
+
+    .dostij{
+        width: 95vw;
+        height: 100px;
+        padding-top: 0px;
+    }
+
+    .dostij_text{
+        font-weight: 600;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .dostij_img_ball{
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    
+
+    .dostij_img{
+        display: none;
+    }
+    
+    .avatar{
+        height: 34px;
+        width: 34px;
+    }
+
+    header{
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    .lines{
+        position: fixed;
+        left: 80%;
+        display: block;
+        padding-top: 10px;
+        
+    }
+    ul{
+        display: none;
+    }
+    .show-menu{
+        display: block;
+        margin-left: 60%;
+    }
+
+    .mesto_v_gruppe{
+        padding-top: 0px;
+    }
+
+    .dostij_text_ickl{
+        display: none;
+    }
+
+    .button_of_classes{
+        display: none;
+    }
+
+    header{
+        position: relative;
+        left: -120px;
+    }
+ }
+
+
+.show-menu{
+    display: flex;
+    flex-direction: column;
+}

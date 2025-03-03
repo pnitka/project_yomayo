@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Oswald:wght@200..700&family=Playwrite+NL+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Yuji+Mai&display=swap" rel="stylesheet">
+    <title>Frontend</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="person">
+                <img class="avatar" src="./img/profile.png" alt="аватар">
+                <div class="header-name">
+                    <div class="person__name">
+                        <p class="name_of_person h3">Зубарева Адольфия</p>
+                        <p class="group_of_person h3">Кд2|Кф3</p>
+                    </div>
+                    <p class="group_of_person h3">ПАЗЛ/КОД</p>  
+                </div>
+                <nav>
+                    <ul id="menu">
+                        <li><a href="">Кд9</a></li>
+                        <li><a href="">Кп17</a></li>
+                    </ul>
+                </nav>
+                <div class="lines">
+                    <div id="l1"></div>
+                    <div id="l2"></div>
+                </div>
+            </div>
+            <div class="button_of_classes">
+                <input id="button_1"  type="radio" name="rad" value="one" checked>
+                <label for="button_1"> Кд2</label>
+                <img src="./img/change.png" alt="arrow">
+                <input id="button_2"  type="radio" name="rad" value="two" checked>
+                <label for="button_2"> Кф3</label>
+            </div>
+                <button class="button_1 button_for_leave but">Выйти</button>  
+        </header>
+        <section class="main-content">
+            <article class="join_to_lesson">
+                <button class="join">
+                    <p class="join_text">Подключиться к занятию</p>
+                </button>
+                <div class="lessons">
+                    <div class="lessons_card">
+                        <p class="lessons_card_text">Запись занятий</p>
+                        <img class="lessons_card_img" src="./img/блок1.png" alt="blok_1">
+                    </div>
+                    <div>
+                        <div class="lessons_card-two">
+                            <p class="lessons_card_text">Чат группы</p>
+                            <img class="lessons_card_img-2" src="./img/блок2.png" alt="bloc_2">
+                        </div>
+                        <div class="lessons_card-two">
+                            <p class="lessons_card_text">Материалы и дз</p>
+                            <img class="lessons_card_img-3" src="./img/блок3.png" alt="blok-3">
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="activity">
+                <button class="balls">
+                    <div class="balls_text">
+                        <p>270</p>
+                        <p class="balls_text_ickl">Общая сумма баллов за весь период обучения</p>
+                    </div>
+                    <div class="mesto_v_gruppe">
+                        <div class="balls_text_ickl-1"><p>Место в группе - 2</p></div>
+                        <div class="balls_text_ickl-2"><p>Место в общ. рейт. - 10</p></div>
+                    </div>
+                </button>
+                <div class="Card_info">
+                    <div class="obraz_reiting">
+                        <p>Образовательный рейтинг</p>
+                        <div class="obraz_reiting_div">
+                            <div class="all_reiting">
+                                <p class="all_reiting_zag">170</p>
+                                <p class="all_reiting_text">всего</p>
+                            </div>
+                            <div class="all_reiting">
+                                <div class="all_reiting_div">
+                                     <p class="all_reiting_zag">35</p>
+                                     <div class="all_reiting__div">
+                                        <p class="all_reiting_text pro">+5 %</p>
+                                        <img class="all_reiting_img" src="./img/icon.png" alt="arrow">
+                                    </div>
+                                </div>
+                                <p class="all_reiting_text">в апреле</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="obraz_reiting">
+                        <p>Рейтинг активностей</p>
+                        <div class="obraz_reiting_div">
+                            <div class="all_reiting">
+                                <p class="all_reiting_zag">100</p>
+                                <p class="all_reiting_text">всего</p>
+                            </div>
+                            <div class="all_reiting">
+                                <div class="all_reiting_div">
+                                    <p class="all_reiting_zag">44</p>
+                                    <div class="all_reiting__div">
+                                        <p class="all_reiting_text pro">-10 %</p>
+                                        <img class="all_reiting_img" src="./img/Group 21.png" alt="arrow">
+                                   </div>
+                                </div>
+                                <p class="all_reiting_text">в апреле</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="dostijenia">
+                <button class="dostij">
+                    <p class="dostij_text">Достижения</p>
+                    <p class="dostij_text_ickl">Последние достижения</p>
+                    <img class="dostij_img_ball" src="./img/фиолетовые кружки.png" alt="miniBall">
+                </button>
+                <label for="mounths_radioButt">
+                    <div class="one card">
+                        <p>Октябрь</p>
+                        <input id="moun-1" name="rad-2" type="radio">
+                    </div>
+                    <div class="two card">
+                        <p>Ноябрь</p>
+                        <input id="moun-2" name="rad-2" type="radio">
+                        
+                    </div>
+                    <div class="three card">
+                        <p>Декабрь</p>
+                        <input id="moun-3" name="rad-2" type="radio">
+                        
+                    </div>
+                    <div class="four card">
+                        <p>Январь</p>
+                        <input id="moun-4" name="rad-2" type="radio">
+                        
+                    </div>
+                    <div class="five card">
+                        <p>Февраль</p>
+                        <input id="moun-5" name="rad-2" type="radio">
+                        
+                    </div>
+                </label>
+            </article>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
