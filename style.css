@@ -248,7 +248,9 @@ section{
     padding-left: 20px;
 }
 
-
+ul{
+    display: none;
+}
 
 .lessons{
     padding: 20px 0;
